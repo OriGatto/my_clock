@@ -19,19 +19,3 @@ function zeroPadding(num, digit) {
     }
     return (zero + num).slice(-digit);
 }
-
-
-
-/*var week = ['ПОНЕД/SUN', 'ВТОР/MON', 'СРЕДА/TUE', 'ЧЕТВ/WED', 'ПТН/THU', 'СУБ/FRI', 'ВОСК/SAT'];
-var timerID = setInterval(updateTime, 1000);
-updateTime();
-function updateTime(){
-    var cd = new Date();
-    clock.time = zeroPadding(cd.getHours(), 2) 
-    + ':' + zeroPadding(cd.getMinutes(), 2) 
-    + ':' + zeroPadding(cd.getSeconds(), 2);
-    clock.date = zeroPadding(cd.getFullYear(), 4) 
-    + '-' + zeroPadding(cd.getMonth()+1, 2) 
-    + '-' + zeroPadding(cd.getDate(), 2) 
-    + ' ' + week[cd.getDay()];
-};*/
