@@ -101,3 +101,31 @@ body{
         font-size: 1.5em;
     }
 }
+
+@media screen and (max-width: 315px) {
+    #clock .time{
+        font-size: 3.7em; 
+    }
+    
+    #clock .date{
+        font-size: 1.3em;
+    }
+    
+    #clock .text{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #clock .time{
+        font-size: 3.6em; 
+    }
+    
+    #clock .date{
+        font-size: 1.2em;
+    }
+    
+    #clock .text{
+        font-size: 1.2em;
+    }
+}
