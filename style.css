@@ -129,3 +129,31 @@ body{
         font-size: 1.2em;
     }
 }
+
+@media screen and (max-width: 280px) {
+    #clock .time{
+        font-size: 3.1em; 
+    }
+    
+    #clock .date{
+        font-size: 1em;
+    }
+    
+    #clock .text{
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    #clock .time{
+        font-size: 3em; 
+    }
+    
+    #clock .date{
+        font-size: 1em;
+    }
+    
+    #clock .text{
+        font-size: 1.2em;
+    }
+}
